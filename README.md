@@ -43,3 +43,6 @@ Here we generate 2 lists of repeating [colormaps](https://matplotlib.org/stable/
 ## Acknowledgements
 
 This [Article](https://towardsdatascience.com/cleaning-analyzing-and-visualizing-survey-data-in-python-42747a13c713) by [Charlene Chambliss](https://medium.com/@blissfulchar) was very helpful in learning my way around this sort of visualization using seaborn
+
+## Different Approach
+If you are considering to visualize your data in a similar fashion to mine, you should really consider this [blogpost](https://medium.com/orikami-blog/behind-the-screens-likert-scale-visualization-368557ad72d1) as a potential alternative for your visualization.
