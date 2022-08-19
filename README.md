@@ -8,7 +8,7 @@ An Example of a generated Image looks like this:
 
 <p align=center>
     <a href="./README.md">
-        <img src="./images/plot2_tight.png" alt="Image showing several survey charts, some colored green and some colored orange"/>
+        <img src="./images/Plot2_tight.png" alt="Image showing several survey charts, some colored green and some colored orange"/>
     </a>
     <br>
 
