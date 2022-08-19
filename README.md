@@ -4,9 +4,12 @@ This is a simple Python Script to create combined subplots of user surveys which
 
 Additionally it uses Color Maps to color code the different parts of our survey
 
-An Example of a generated Image looks like this:
+Examples of our generated Graph-Image look like this:
 
 <p align=center>
+    <a href="./README.md">
+        <img src="./images/Plot1_tight.png" alt="Image showing several survey charts, some colored green and some colored orange"/>
+    </a>
     <a href="./README.md">
         <img src="./images/Plot2_tight.png" alt="Image showing several survey charts, some colored green and some colored orange"/>
     </a>
