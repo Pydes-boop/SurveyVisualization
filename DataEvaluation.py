@@ -45,7 +45,7 @@ for df in TempLists:
 Lists[2].loc[1] = [0, 0, 0]
 
 # X Labels we want to use on our Graphs
-x = ['Stimme nicht zu', 'Stimme leicht dagegen', 'Neutral', 'Stimme leicht zu', 'Stimme voll und ganz zu']
+x = ['Stimme überhaupt nicht zu', 'Stimme nicht zu', 'Stimme weder zu noch lehne ab', 'Stimme zu', 'Stimme voll und ganz zu']
 
 def plot_subplot(column_count, row_count, df_columns, colorlist, name, deleteLastPlot=False, XLabel=''):
     fig, ax = plt.subplots(nrows=row_count, ncols=column_count, figsize=(5*column_count,3*row_count), sharey=True, sharex=True)
@@ -72,6 +72,7 @@ def plot_subplot(column_count, row_count, df_columns, colorlist, name, deleteLas
          fig.delaxes(ax[row_count-1, column_count-1])
     
     fig.supxlabel(XLabel)
+    plt.gca().invert_yaxis()
     plt.tight_layout()
     plt.savefig('images/{}.png'.format(name))
 
