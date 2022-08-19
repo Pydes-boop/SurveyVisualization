@@ -1,6 +1,6 @@
 # Google Survey Visualization
 
-This is a simple Python Script to create combined subplots of user surveys which use the standard survey/test scaling from 1...5 (Heavy Disagree...Strongly Agree)
+This is a simple Python Script to create combined subplots of user surveys which used the standard *Likert-Scale* from 1...5 (Strongly  Disagree...Strongly Agree)
 
 Additionally it uses Color Maps to color code the different parts of our survey
 
@@ -14,7 +14,7 @@ An Example of a generated Image looks like this:
 
 </p>
 
-This Code should be easily transferable for other survey results using the same scale
+This Code should be easily transferable for other survey results if theyre also using the *Likert-Scale*
 
 ## Usage
 
