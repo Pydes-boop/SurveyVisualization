@@ -46,3 +46,6 @@ This [Article](https://towardsdatascience.com/cleaning-analyzing-and-visualizing
 
 ## Different Approach
 If you are considering to visualize your data in a similar fashion to mine, you should really consider this [blogpost](https://medium.com/orikami-blog/behind-the-screens-likert-scale-visualization-368557ad72d1) as a potential alternative for your visualization.
+
+## Further Reading
+This project uses both MatplotLib and Seaborn, but matplotlib is definitly more powerful especially with our subgraphs. If you want to get into this further or have some weirder data you want to represent (like 3d Data) you should read more about matplotlib, like in this [article](https://towardsdatascience.com/seaborn-can-do-the-job-then-why-matplotlib-dac8d2d24a5f)
