@@ -84,7 +84,7 @@ for df in TempLists:
     Lists.append(df.sort_index(ascending=True))
 
 # X Labels we want to use on our Graphs
-x = ['Stimme überhaupt nicht zu', 'Stimme nicht zu', 'Stimme weder zu noch lehne ab', 'Stimme zu', 'Stimme voll und ganz zu']
+x = ['Stimme überhaupt nicht zu', 'Stimme nicht zu', 'Neutral', 'Stimme zu', 'Stimme voll und ganz zu']
 
 # Setting your sns style to darkgrid, cause it looks cool (use whitegrid, if darkgrid doesnt fit with your colours)
 sns.set_style("darkgrid")
@@ -109,8 +109,8 @@ def plot_subplot(column_count, row_count, df_columns, colorlist, name, deleteLas
         # BUGFIX we -1 our median and mean values because otherwise they appear scuffed in our barplot, probably because the x labels might be starting at index 0 and not 1
         mean = reverseValueCounts.mean() - 1
         median = reverseValueCounts.median() - 1
-        a.axhline(mean - 1, c='k', ls='-', lw=1.5)
-        a.axhline(median - 1, c='dodgerblue', ls='--', lw=1.5)
+        a.axhline(mean, c='k', ls='-', lw=1.5)
+        a.axhline(median, c='dodgerblue', ls='--', lw=1.5)
         
         # Suppresses displaying the question along the y-axis and remove title from x-axis
         a.yaxis.label.set_visible(False)
